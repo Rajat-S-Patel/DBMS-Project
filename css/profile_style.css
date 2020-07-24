@@ -1,0 +1,134 @@
+.profile-display{
+    display: flex;
+    padding: 10px;
+}
+#profile_body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.side-nav-bar{
+    padding-right: 10px;  
+}
+.card-welcome{
+    box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.2);
+    background: #fcfcfc;
+    max-width: 250px;
+    display: flex;
+    padding: 5px;
+    
+}
+.card-main-profile{
+    box-shadow: 0px 8px 16px 8px rgba(0,0,0,0.2);
+    background: #fcfcfc;
+    width:100%;
+    display: block;
+    padding: 10px;
+    
+}
+
+.name-profile{
+    margin-left:5px; 
+}
+.card-psw{
+    box-shadow: 0px 10px 10px 8px rgba(0,0,0,0.2);
+    background: #fcfcfc;
+    max-width: 250px;
+    display: block;
+    margin-top: 5px;
+    padding: 10px 10px 5px 10px;
+    padding: 5px;
+}
+
+.dp-change-btn{
+    padding: 10px 10px 5px 10px;
+}
+.card-main-profile table{
+    text-align: left;
+}
+.card-main-profile input,select{
+    border-radius: 5px;
+    border:1px solid lightgray;
+}
+
+.card-main-profile tr{
+    height: 50px;
+}
+#card_psw input{
+    width: 180px;
+    height: 40px;
+    margin: 0px 10px 0px 0px;
+    background-size: 27px 27px;
+    background-color: royalblue;
+    background-position-x: 5px; 
+    border: none;
+    font-size: 100%;
+    text-align: right;
+    color: white;
+    border-radius: 3px;
+}
+#card_psw input:hover{
+   background-color: #004d99;
+}
+.psw-change-btn {
+    padding: 10px 10px 5px 10px;
+}
+.psw-change-btn input{
+    background:  url("../system_img/psw-icon.png") no-repeat center left;
+}
+.dp-change-btn input{
+    background:  url("../system_img/dp-icon.png") no-repeat center left;
+}
+.save-btn{
+    float:right;
+}
+.save-btn input{
+    width: 120px;
+    height: 40px;
+    margin: 0px 10px 0px 0px;
+    background-color: royalblue;
+    border: none;
+    font-size: 95%;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+}
+.save-btn input:hover{
+   background-color:  #004d99;
+}
+#main_card .image-cropper:hover{
+    border: 2px solid red;
+}
+#main_card input{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    margin-top:20px;
+    width: 100%;
+    height: 40px;
+    background-color: royalblue; 
+    border: none;
+    font-size: 95%;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+}
+#main_card input:hover{
+    background-color: #004d99;
+}
+    .image-cropper{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .image-cropper img{
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        height: 100%;
+        width: auto;
+    }
+    #basic_title{
+        margin:0px auto 0px auto;
+    }
